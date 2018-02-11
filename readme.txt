@@ -1,0 +1,1 @@
+La textura del fondo está en esta ubicación: https://previews.123rf.com/images/likstudio/likstudio1109/likstudio110900068/10537888-natural-stone-texture-with-different-colors.jpg
