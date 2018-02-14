@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     //[Range(0F, 1F)]
     [SerializeField]
     private float movementSpeed = 0.5F;
+
 
     private new Rigidbody rigidbody;
 
