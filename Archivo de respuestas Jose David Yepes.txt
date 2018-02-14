@@ -1,0 +1,32 @@
+Componente teorico
+
+1) 
+
+ A) Para el resultado del producto punto entre A y B da como resultado (-30), podriamos 
+concluir que el Vector A y el Vector B son antiparalelos, es decir, apuntan en sentidos contrarios.
+
+ A <----------
+ 
+   ----------> B
+
+ B) Para el resultado del producto punto entre A y B da como resultado (30), podriamos 
+concluir que el Vector A y el Vector B son paralelos, es decir, apuntan hacia el mismo sentido.
+
+ -----------> A
+ 
+ -----------> B
+
+2) El spherecast, puede tener mucha utilidad en videojuego de pelea, en el que un personaje hace un movimiento con cierto rango o lanza
+   un proyectil. Es util ya que no consumiria muchos recursos y se puede modificar a que distancia se va a proyectar y el radio de la esfera.
+
+
+3) 
+	A) Los rigidbodies estan modelados bajo los principios de la mecánica newtoniana.
+	B) El impulso es una fuerza en una direccion que se aplica una vez, la aceleracion es incrementar su posicion
+	respecto al tiempo de forma progresiva.
+	C) Utilizaria un collider y le añadiria un Physic material para simular la viscocidad.El collider es util
+	ya que lo que necesitamos no es aplicar una fuerza, sino, simular una superficie.
+
+4) La diferencia es que al mover un objeto con una fuerza, este va a reaccionar de forma más "realista" ya que además de la
+   fuerza aplicada, el objeto estaria regido bajo las leyes de la fisica, en cambio, si cambiamos su posicion utilizando vectores,
+   el movimiento va a ser más "plano" e "irreal".
