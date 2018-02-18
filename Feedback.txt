@@ -1,0 +1,15 @@
+Feedback.
+
+Componente Teórico (1.05)
+1. El inciso 'b' no especificaba el valor de 30, sino 0. (0.25)
+2. No es claro el 'feature' que propone, y que pueda usarse específicamente en un juego de pelea. Además, implicaría definir qué clase de juego de pelea (ej. en un 2D Fighter no sería muy útil) (0.2)
+3. El numeral 'b' no pedía la definición de aceleración, sino la diferencia entre aplicar impulso y aceleración a un rigidbody. En últimas, ambos terminan por acelerar el cuerpo. Respecto del numeral 'c', una superficie viscosa no se debería simular con un rigidbody. La solución que plantea es solo visual, pero no ayudaría a la mecánica del fluído. (0.25)
+4. Es correcto; sin embargo hace falta especificar qué pasa con la detección de físicas. (0.35)
+
+Componente Práctico (2.7)
+* Completo.
+* Se reduce por no aplicar herencia 0.3 en los bloques. Si bien la solución propuesta satisface el enunciado, si quisiera cambiar, por ejemplo, la cantidad de puntos que hace un tipo de bloque tendría que ir por cada instancia y cambiar el valor. Dicho valor podría estar perfectamente definido a nivel de clase. Lo mismo ocurre con el tipo de material físico.
+
+Total Examen: 3.75
+Bonus: 0.3
+Total: 4.05
